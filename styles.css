@@ -1,0 +1,171 @@
+/*classes gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2; /*espaçamento entre as linhas*/
+}
+.container{
+    /*limita borda do site*/
+    width: 80%;
+    margin: 0 auto;
+}
+h1, h2, h3, p{
+    margin:0;
+    padding: 0;
+}
+a{
+    /*sem ponto*/
+    text-decoration: none;
+    
+}
+.button{
+    margin-top: 10px;
+    display: inline-block;
+    color: #fff;
+    background: rgb(19, 160, 96); /* verde turquesa - cabeçalho e rodapé */
+    padding: 10px 50px;
+}
+
+/*header*/
+
+header{
+    background: rgb(19, 160, 96); /* verde turquesa - cabeçalho e rodapé */
+    text-align: left;
+    padding: 15px 0;
+    color: #fff;
+}
+header h1{
+    font-size: 2.5rem;
+}
+header img{
+    width: 40px;
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none; /*retira o ponto*/
+    padding: 5;
+
+}
+header nav ul li{
+    display: inline; /*converte em linha*/
+    min-width: 100px;
+    width: 30%;
+    margin: 0 15px;
+}
+header nav ul li a{
+    /*configurando botão*/
+    color: #fff;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 50px;
+    margin-right: 0%;
+    margin-left: 0%;
+    gap:0%;
+    font-size: small;
+    background: rgb(34, 142, 94); /* verde água escuro - destaques e variações da cor principal */
+}
+
+/*main*/
+main{
+    background: rgb(242, 242, 242); /* cinza suave*/
+    
+    padding: 15px 0;
+    color: rgb(0, 0, 0);
+}
+main .welcome{
+    background: rgb(218, 218, 218);
+    padding: 50px 20px;
+    text-align: center;
+
+}
+main .welcome h2{
+    font-size: 1.8rem;
+}
+main section div p u {
+    /*cor do texto sublinhado*/
+    color: rgb(13, 114, 69);
+}
+main .services{
+    display: flex; /*texto alinhado*/
+    justify-content: space-around;
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+main .services div{
+    width: 40%;
+    min-width: 100px;
+    max-width: 300px;
+    padding: 20px;
+
+}
+main .services div h3{
+    margin: 10px 0;
+    color: #333;
+}
+main div p{
+    font-size: 1.0rem;
+}
+main .services img{
+    width: 80%;
+    height: 25%;
+}
+
+/*vivamus*/
+main .vivamus{
+    color: rgb(14,12,12);
+    padding: 50px 20px;
+
+    justify-content: center;
+    text-align: center;
+    background: rgb(218, 218, 218);
+    margin: 10px auto;
+}
+main .vivamus-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    height: 100px;
+    margin: 0;
+}
+/*footer -------                    */
+footer{
+    background: rgb(19, 160, 96); /* verde turquesa - cabeçalho e rodapé */
+    color: #fff;
+    text-align: center;
+    padding:  20px 0;
+}
+footer .social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 300px;
+    margin: 10px auto;
+}
+footer .social li{
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+footer img{
+    width:30px;
+    height: 30px;
+}
+
+
+
+/*background: rgb(255,255,255); /* branco puro - fundo da página */
+/*background: rgb(243,243,243); /* cinza claro - fundo de seções claras e bordas suaves */
+/*background: rgb(242,242,242); /* cinza suave - áreas de contraste menor */
+/*background: rgb(253,253,253); /* branco quase puro - textos e detalhes */
+/*background: rgb(246,244,244); /* cinza esbranquiçado - divisores e detalhes */
+/*background: rgb(249,249,249); /* cinza perolado - bordas e caixas de texto */
+/*background: rgb(244,243,243); /* cinza médio - transições e elementos suaves */
+/*background: rgb(73,180,160); /* verde água escuro - destaques e variações da cor principal */
+/*background: rgb(10,157,129); /* verde água mais escuro - acentos e sombras */
